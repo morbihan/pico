@@ -7,8 +7,9 @@ led_onboard = machine.Pin(25, machine.Pin.OUT)
 conversion_factor = 3.3 / (65535)
 
 utime.sleep(60)
-#Time delay to stop the program manualy, so it won't ovorwrite temps.txt
-#I dont now how to append it yet
+#Time delay to stop the program manualy, so it won't overwrite temps.txt
+#I don't know how to append it yet.
+#Open file store it in string append it etc etc.
 
 file = open("temps.txt", "w")
 
