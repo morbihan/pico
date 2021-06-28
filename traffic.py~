@@ -10,8 +10,6 @@ buzzer = machine.Pin(12, machine.Pin.OUT)
 
 global button_pressed
 
-# Set default value, so on restart all leds turn off and also the buzzer.
-
 button_pressed = False
 led_red.value(0)
 led_amber.value(0)
